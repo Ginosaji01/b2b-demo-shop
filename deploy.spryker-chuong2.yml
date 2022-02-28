@@ -114,12 +114,12 @@ groups:
                         store: AT
                         <<: *frontend-auth
             Zed:
-                application: backoffice
+                application: zed
                 endpoints:
-                    backoffice.de.spryker-chuong2.cloud.spryker.toys:
+                    zed.de.spryker-chuong2.cloud.spryker.toys:
                         store: DE
                         <<: *frontend-auth
-                    backoffice.at.spryker-chuong2.cloud.spryker.toys:
+                    zed.at.spryker-chuong2.cloud.spryker.toys:
                         store: AT
                         <<: *frontend-auth
             Glue:
