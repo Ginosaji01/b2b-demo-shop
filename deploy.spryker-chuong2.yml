@@ -114,7 +114,7 @@ groups:
                         store: AT
                         <<: *frontend-auth
             Zed:
-                application: zed
+                application: backoffice
                 endpoints:
                     zed.de.spryker-chuong2.cloud.spryker.toys:
                         store: DE
