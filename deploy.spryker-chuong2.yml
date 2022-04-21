@@ -113,15 +113,22 @@ groups:
                     www.at.spryker-chuong2.cloud.spryker.toys:
                         store: AT
                         <<: *frontend-auth
-            Zed:
+            boffice:
                 application: backoffice
                 endpoints:
-                    zed.de.spryker-chuong2.cloud.spryker.toys:
+                    backoffice.de.spryker-chuong2.cloud.spryker.toys:
                         store: DE
                         <<: *frontend-auth
-                    zed.at.spryker-chuong2.cloud.spryker.toys:
+                    backoffice.at.spryker-chuong2.cloud.spryker.toys:
                         store: AT
                         <<: *frontend-auth
+            backgw:
+                application: backend-gateway
+                endpoints:
+                    backend-gateway.de.spryker-chuong2.cloud.spryker.toys:
+                        store: DE
+                    backend-gateway.at.spryker-chuong2.cloud.spryker.toys:
+                        store: AT
             Glue:
                 application: glue
                 endpoints:
